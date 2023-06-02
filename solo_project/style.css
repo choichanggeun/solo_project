@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: url("../assets/bg.png") center/cover no-repeat;
+    min-height: 100vh;
+  }
+  
+input {
+    width: 200px;
+    height: 30px;
+    margin-left: 750px;
+}
+
+button {
+
+    width: 200px;
+    height: 35px;
+
+}
+
+h1 {
+
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+header {
+    background-color: #ffe194;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.poster-image {
+    cursor: pointer;
+}
+
+.movie-card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    justify-self: center;
+    background-color: bisque;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+#movies-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
